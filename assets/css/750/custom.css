@@ -1,0 +1,42 @@
+/* 750px */
+
+:root {
+    --font-size-01: 11px;
+    --font-size-02: 13px;
+    --font-size-03: 15px;
+    --font-size-04: 17px;
+    
+    --score-div-large: 65px;
+    --post-listing-1-thumb: 155px;
+    
+    --aspect-ratio-author-page-banner: 8/3;
+    --author-page-avatar: 145px;
+    
+    --hidden-margin-large: 280px;
+    --element-margin: 18px;
+    --body-margin: 35px;
+    
+    --element-border-radius: 9px;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 24px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+.rest-of-the-webpage {
+    padding: calc(var(--body-margin) * 0.4) var(--body-margin) calc(var(--body-margin) * 0.6);
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 20px;
+}
+
+.right-sidebar {
+    margin-top: 50px;
+}
+
+.right-sidebar-hr {
+    display: none;
+}

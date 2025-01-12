@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Titillium Web Regular';
+    src: url('fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body.login {
+    font-family: 'Titillium Web Regular', sans-serif;
+    letter-spacing: 0.4px;
+    background-color: #18191a;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    color: #fff;
+}
+
+body.login #login {
+    background-color: #242526;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+body.login #loginform {
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+#login form p.submit {
+    display: block;
+}
+
+#login form p.submit input {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    background: #3a3b3c;
+    border: 0;
+    text-transform: uppercase;
+}

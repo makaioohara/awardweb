@@ -1,0 +1,43 @@
+/* 1060px */
+
+:root {
+    --font-size-01: 12px;
+    --font-size-02: 14px;
+    --font-size-03: 16px;
+    --font-size-04: 18px; 
+    
+    --letter-spacing-01: 0.6px;
+    --line-height-01: 1.8;
+    
+    --menu-icon-width: 55px;
+    
+    --hidden-margin: 95px;
+    --hidden-margin-large: 310px;
+    --element-margin: 20px;
+    --body-margin: 40px;
+    
+    --element-border-radius: 11px;
+}
+
+h1 { font-size: 36.5px; }
+h2 { font-size: 30.5px; }
+h3 { font-size: 28.5px; }
+h4 { font-size: 26.5px; }
+h5 { font-size: 24.5px; }
+h6 { font-size: 22.5px; }
+
+.rest-of-the-webpage {
+    grid-column-gap: 30px;
+}
+
+.unique-menu-bar {
+    height: calc(100% - 120px);
+}
+
+.sidenavbar .top-menu-content {
+    margin-top: 20px;
+}
+
+.sidenavbar header .toggle {
+    right: -40px;
+}

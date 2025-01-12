@@ -1,0 +1,38 @@
+/* 600px */
+
+:root {
+    --font-size-01: 10.5px;
+    --font-size-02: 12.5px;
+    --font-size-03: 14.5px;
+    --font-size-04: 16.5px;
+    
+    --score-div-large: 62px;
+    --menu-icon-width: 55px;
+    --post-listing-1-thumb: 150px;
+    
+    --aspect-ratio-author-page-banner: 8/3;
+    --author-page-avatar: 140px;
+    
+    --hidden-margin: 90px;
+    --hidden-margin-large: 260px;
+    --body-margin: 30px;
+    
+    --element-border-radius: 9px;
+}
+
+h1 { font-size: 31px; }
+h2 { font-size: 25px; }
+h3 { font-size: 23px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+.sidenavbar header .toggle {
+    right: -30px;
+    width: 35px;
+    height: 35px;
+}
+
+.unique-menu-bar {
+    height: calc(100% - 110px);
+}
